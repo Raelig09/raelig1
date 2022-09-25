@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Книжный магазин</title>
+<link rel="stylesheet" type="text/css" href="css4.css">
+<style type="text/css">
+</style>
+</head>
+<body>
+<header class="header">
+<h1><center><font face="Source Sans Pro" size="+4" color="#000000"></font>Форма заказа</center></h1>
+</header>
+<form name="zakaz_forma" action="/cgi-bin/zakaz.cgi" method="post" enctype="multipart/form-data">
+<ul class="menu-bar">
+                  <li><a href="index.html"<font color="#8B008B" size="5">Главная </font></a></li>
+				 <li> <a href="now.html"><font color="#8B008B" size="5">Новинки </font></a></li>
+				  <li><a href="catalog.html"><font color="#8B008B" size="5">Каталог книг </font></a></li>
+				  <li><a href="zakaz.html"><font color="#8B008B" size="5">Форма заказа </font></a></li>
+				  <li><a href="conect.html"><font color="#8B008B" size="5">Контакты </font></a></li>
+				</ul>
+				<br>
+				<br>
+<table>
+<tr>
+<td>
+<p>Ваша фамилия:</p>
+<input type="text" size="20" maxlength="50" name="surname" placeholder="Фамилия"><br><br>
+<p>Ваше имя:</p>
+<input type="text" size="20" maxlength="50" name="name" placeholder="Имя"><br><br>
+<p>Ваше отчество:</p>
+<input type="text" size="20" maxlength="50" name="patronymic" placeholder="Отчество"><br><br>
+</td>
+<td>
+<p>Город:</p>
+<input type="text" size="20" maxlength="50" name="city" placeholder="Город"><br><br>
+<p>Регион:</p>
+<input type="text" size="20" maxlength="50" name="region" placeholder="Регион"><br><br>
+</td>
+<td>
+<p>Название книги:</p>
+<input type="text" size="20" maxlength="50" name="name book" placeholder="Название книги"><br><br>
+<p>Количество:</p>
+<input type="text" size="20" maxlength="50" name="quanitity" placeholder="Количество"><br><br>
+<p>Способ оплаты:</p>
+<input type="text" size="20" maxlength="50" name="cite" placeholder="Способ оплаты"><br><br>
+</td></tr>
+<tr>
+<td align="center" colspan="4">
+<input type="submit" value="Отправить данные">
+<input type="reset" value="Очистить поля">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html> 
+
+
